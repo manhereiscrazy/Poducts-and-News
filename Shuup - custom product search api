@@ -1,0 +1,94 @@
+CODE BY DaVE github.com/manhereiscrazy
+c@2020 AntiQT.inc
+
+
+
+______________
+example query
+~~~~~~~~~~~~~~
+
+
+}
+   "search": "perfume”                  #the search query is mandatory  and a string is given as
+}
+
+
+
+___________________
+example response
+~~~~~~~~~~~~~~~~~~~
+
+[
+    {
+        "id": 7,
+        "product_id": 7,
+        "name": "Still Jennifer Lopez Perfume",
+        "short_description": "",
+        "description": "Be driven with vitality and confidence, as you wear the Jennifer Lopez Still fragrance.",
+        "image": "/media/filer_public/37/64/376449bf-0826-45b8-a8f4-e14c9baaac15/product07.jpeg",
+        "primary_category": {
+            "id": 1,
+            "name": "Default",
+            "slug": "default",
+            "image": "/media/filer_public/d4/09/d4092978-42fa-48b1-8398-cb974dcbfee9/category01.jpeg"
+        },
+        "categories": [
+            {
+                "id": 1,
+                "name": "Default",
+                "slug": "default",
+                "image": "/media/filer_public/d4/09/d4092978-42fa-48b1-8398-cb974dcbfee9/category01.jpeg"
+            }
+        ],
+        "attributes": [],
+        "price": {
+            "purchasable": true,
+            "default_price_value": "122.980000000",
+            "display_unit": null
+        },
+        "net_weight": 0.0,
+        "shop": {
+            "id": 1,
+            "name": "Default Shop",
+            "logo": "/media/filer_public/82/eb/82eb1258-57d4-4637-9f71-f0b80c861f91/ws_alienware_logo_1024x768.jpg",
+            "favicon": null,
+            "currency": "EUR"
+        }
+    },
+    {
+        "id": 5,
+        "product_id": 5,
+        "name": "Tommy Girld by Tommy Hilfiger Perfume",
+        "short_description": "",
+        "description": "A refreshing and energetic floral - with low notes of sandalwood and heather.",
+        "image": "/media/filer_public/2b/9c/2b9cc69c-ed18-4dcc-891b-ff4ada021081/product05.jpeg",
+        "primary_category": {
+            "id": 1,
+            "name": "Default",
+            "slug": "default",
+            "image": "/media/filer_public/d4/09/d4092978-42fa-48b1-8398-cb974dcbfee9/category01.jpeg"
+        },
+        "categories": [
+            {
+                "id": 1,
+                "name": "Default",
+                "slug": "default",
+                "image": "/media/filer_public/d4/09/d4092978-42fa-48b1-8398-cb974dcbfee9/category01.jpeg"
+            }
+        ],
+        "attributes": [],
+        "price": {
+            "purchasable": true,
+            "default_price_value": "241.890000000",
+            "display_unit": null
+        },
+        "net_weight": 0.0,
+        "shop": {
+            "id": 1,
+            "name": "Default Shop",
+            "logo": "/media/filer_public/82/eb/82eb1258-57d4-4637-9f71-f0b80c861f91/ws_alienware_logo_1024x768.jpg",
+            "favicon": null,
+            "currency": "EUR"
+        }
+    }
+]
